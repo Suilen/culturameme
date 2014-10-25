@@ -81,7 +81,7 @@ p {
   font-size: .8em;
 }
 .inline {
-  display: inline-block;
+  display: inline-block !important;
 }
 img {
   width: 100%;
@@ -96,7 +96,7 @@ a,
 a:visited,
 a:hover {
   color: inherit;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a.c-btn,
 a:visited.c-btn,
@@ -265,6 +265,27 @@ a.modal-close-btn {
 a.email-btn {
   font-size: 28px;
 }
+.c-tags li {
+  display: inline-block;
+  margin: 0px 2px 1px 2px;
+}
+.c-tags li a {
+  display: block;
+  padding: 0px 4px;
+  font-size: 13px;
+  background: rgba(213, 188, 208, 0.4);
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  color: #fff8f6;
+  text-shadow: 0 1px 1px #c2c2c2;
+}
+.c-tags li a:hover {
+  background: rgba(152, 96, 141, 0.4);
+}
 footer {
   color: #fff8f6;
   background: #318699;
@@ -375,6 +396,9 @@ header {
   .navbar-brand {
     display: none;
   }
+  footer .row {
+    width: 80%;
+  }
 }
 @media (max-width: 767px) {
   .navbar-brand {
@@ -398,6 +422,13 @@ header {
     color: #fff8f6;
     text-align: center;
   }
+  footer .row {
+    width: 80%;
+  }
+  footer .row .lf p,
+  footer .row .rt {
+    text-align: center;
+  }
 }
 @media (max-width: 480px) {
   .navbar-default .navbar-nav > li > a {
@@ -408,5 +439,12 @@ header {
   .navbar-brand.c-logo {
     width: 200px;
     font-size: 28px;
+  }
+  footer .row {
+    width: 90%;
+  }
+  footer .row .lf p,
+  footer .row .rt {
+    text-align: center;
   }
 }

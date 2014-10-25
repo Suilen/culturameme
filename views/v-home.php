@@ -14,16 +14,17 @@
 
 	
 <!--HOME banner area -->
-		<section id="banner-wrp" style="background-image: url(images/nyc-skyline0.png);">
-			<div class="inner-banner" >
+		<section class="c-home-banner">
+			<div id="banner-wrp" style="background-image: url(images/nyc-skyline0.png);"> 
+				<div class="inner-banner" >
 
-			<!-- 	<div class="box-wrp">
-					<div class="content-wrp">
-						<a href="#" class="c-btn content-wrp" id="recolor" >Click me</a>
-					</div>
-				</div> -->
+				<!-- 	<div class="box-wrp">
+						<div class="content-wrp">
+							<a href="#" class="c-btn content-wrp" id="recolor" >Click me</a>
+						</div>
+					</div> -->
 
-
+				</div>
 			</div>
 		</section>
 
@@ -50,7 +51,7 @@
 
 
 <!-- topics -->
-		<section class="c-home-topics"></section>
+	<?php include_once("includes/i-home-topics.html"); ?>
 
 <!-- groups -->
 		<section class="c-home-groups"></section>

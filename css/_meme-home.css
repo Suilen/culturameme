@@ -1,4 +1,14 @@
 /* CSS crunched with Crunch - http://crunchapp.net/ */
+body {
+  background: url('http://subtlepatterns.com/patterns/snow.png');
+}
+.c-section-head {
+  margin-bottom: 30px;
+}
+.c-home-banner,
+.c-home-events {
+  background: #fefefe;
+}
 .inner-banner,
 #banner-wrp {
   width: 100%;
@@ -75,8 +85,7 @@
   text-align: center;
 }
 .c-home-events .c-home-events-inner h2 {
-  margin: 0 auto 36px auto;
-  color: #34a7c1;
+  color: #6f6f6f;
 }
 .c-home-events .c-home-events-inner .c-event-arrows {
   position: absolute;
@@ -171,6 +180,64 @@
 }
 .c-btn.go h5 {
   margin: 0;
+}
+.c-home-topics {
+  padding: 40px  0;
+  text-align: center;
+}
+.c-home-topics h2 {
+  color: #6f6f6f;
+}
+.c-home-topics-i {
+  text-align: left;
+  margin: 10px  auto;
+  background: #fff8f6 url(http://subtlepatterns.com/patterns/diamond_upholstery.png);
+}
+.c-home-topics-i h2 {
+  color: #318699;
+  margin: 0 0 20px -15px;
+  font-size: 22px;
+}
+.c-home-topics-i h2 span {
+  height: 50px;
+  width: 150px;
+  font-size: 1.5em;
+  display: inline-block;
+  background: #fefefe;
+  border-radius: 0 0 25px 0;
+  line-height: 50px;
+  text-align: center;
+}
+.c-home-topics-i .c-topic-items .row {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  background: #fefefe;
+}
+.c-home-topics-i .c-topic-items .c-user-thumb {
+  height: 65px;
+  width: 65px;
+  padding: 5px;
+  position: relative;
+}
+.c-home-topics-i .c-topic-items .c-user-thumb img {
+  height: 100%;
+  width: 100%;
+}
+.c-home-topics-i .c-topic-items .c-topic-i-content {
+  font-size: 14px;
+  width: 100%;
+  height: 20px;
+  text-overflow: ellipsis;
+}
+.c-home-topics-i .c-topic-items .c-user-name {
+  font-size: 12px;
+  color: #6f6f6f;
+}
+.c-toggle-topic {
+  opacity: 0;
+}
+.c-toggle-topic i {
+  font-size: 0.8em;
+  color: #6f6f6f;
 }
 form.c-home-registerform {
   height: 400px;
