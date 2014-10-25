@@ -26,7 +26,12 @@
 
 				</div>
 			</div>
+			<div class="c-banner-heading">
+				<h1>geting the most out of living in the U.S.</h1>
+				<h3 class="sans">International Students and Professionals</h3>
+			</div>
 		</section>
+
 
 <!-- CONTENT AREA -->
 <div class="page-content-wrp">

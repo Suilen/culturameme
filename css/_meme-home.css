@@ -10,6 +10,22 @@ body {
 .c-home-events {
   background: #fefefe;
 }
+.c-home-banner {
+  position: relative;
+}
+.c-home-banner .c-banner-heading {
+  position: absolute;
+  top: 40px;
+  margin: 0 auto;
+  width: 80%;
+  padding: 0 30px;
+  background: rgba(255, 255, 255, 0.6);
+}
+.c-home-banner .c-banner-heading h1 {
+  text-transform: capitalize;
+  color: #CBD8D8;
+  text-shadow: 0 1px 1px #6f6f6f;
+}
 .inner-banner,
 #banner-wrp {
   width: 100%;
