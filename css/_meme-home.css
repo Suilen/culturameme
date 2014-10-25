@@ -4,6 +4,7 @@ body {
 }
 .c-section-head {
   margin-bottom: 30px;
+  text-align: center;
 }
 .c-home-banner,
 .c-home-events {
@@ -261,8 +262,93 @@ body {
   font-size: 0.8em;
   color: #6f6f6f;
 }
-form.c-home-registerform {
+.c-home-groups {
+  padding: 40px 0;
+  background: #77c6d8 url('http://cdn.smithandkeller.com/wp-content/themes/smithandkeller/images/men-connect-transparent.png') top center;
+}
+.c-home-groups .c-section-head h2 {
+  color: #fefefe;
+}
+.c-home-groups .c-group-list {
+  margin: 20px 0 0 0;
+  padding: 0;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+.c-home-groups .c-group-list li {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin: 20px;
+}
+.c-home-groups .c-group-list li .c-group-i {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: relative;
+  cursor: default;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  background-image: url();
+  background-repeat: no-repeat;
+  border-color: #006e87;
+  border-style: solid;
+  border-width: 10px;
+}
+.c-home-groups .c-group-list li .c-group-i h3 {
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 50px 0 0 0;
+  height: 0px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  text-shadow: 0 0 1px #ffffff, 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+.c-home-groups .c-group-list li .c-group-i .c-group-info {
+  position: absolute;
+  background: transparent;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -o-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-backface-visibility: hidden;
+}
+.c-home-groups .c-group-list li .c-group-i .c-group-info h5 {
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #f4d96e;
+}
+.c-home-groups .c-group-list li .c-group-i:hover .c-group-info {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}
+.c-home-register {
+  background: #f0f1ec;
   height: 400px;
+  padding: 40px 0;
+}
+.c-home-register h2 {
+  color: #6f6f6f;
 }
 @media (max-width: 1199px) {
   .inner-banner,

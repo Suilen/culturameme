@@ -54,12 +54,11 @@
 	<?php include_once("includes/i-home-topics.html"); ?>
 
 <!-- groups -->
-		<section class="c-home-groups"></section>
+	<?php include_once("includes/i-home-groups.html"); ?>
 
 <!-- register form -->
-		<form class="c-home-registerform">
-
-		</form>
+	<?php include_once("includes/i-home-register.html"); ?>
+		
 
 <!-- partners -->
 		<section class="c-home-partners"></section>
