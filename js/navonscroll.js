@@ -1,8 +1,7 @@
 // $(document).ready(function(){
 
   $(window).scroll(function(){
-    console.log($(document).scrollTop());
-    if($(document).scrollTop() > 200)
+    if($(document).scrollTop() > 65)
   {
           $('#primary-nav').animate({
               height:'50px'

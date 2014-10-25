@@ -21,6 +21,7 @@ body {
   color: #232323;
   background-repeat: no-repeat;
   background-size: cover;
+  background: #fefefe;
 }
 h1 {
   font-family: 'Libre Baskerville', serif;
@@ -35,10 +36,12 @@ h2 {
   line-height: 30px;
   color: #232323;
   text-transform: none;
+  text-shadow: 0 0 1px #ffffff, 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 h2.sans {
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
+  text-shadow: 0 0 1px #ffffff, 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 h3,
 h4 {
@@ -77,9 +80,17 @@ p {
 .small {
   font-size: .8em;
 }
+.inline {
+  display: inline-block;
+}
 img {
   width: 100%;
   height: auto;
+}
+button:focus,
+input:focus {
+  -webkit-box-shadow: none !important;
+  outline: none !important;
 }
 a,
 a:visited,
@@ -136,6 +147,7 @@ li {
   text-decoration: none;
 }
 .c-btn {
+  display: block;
   text-indent: 0%;
   text-align: center;
   vertical-align: middle;
@@ -277,7 +289,8 @@ footer .row .rt {
   text-align: left;
 }
 header {
-  background: #fefefe;
+  background: rgba(213, 188, 208, 0.4);
+  height: 65px;
 }
 .navbar {
   height: 65px;

@@ -19,6 +19,7 @@ body {
     color: @cGrey1;
     background-repeat: no-repeat;
     background-size: cover;
+    background: @cGrey3;    
 }
 
 h1 {
@@ -26,8 +27,12 @@ h1 {
     font-size: 38px ;line-height: 36px ; 
     color: white; text-transform: uppercase;}
     
-h2 {font-family: 'Cardo', serif; font-size: 36px; line-height: 30px; color: @cGrey1; text-transform: none;}
-h2.sans {font-family: 'Raleway', sans-serif; text-transform: uppercase;   }
+h2 {font-family: 'Cardo', serif; font-size: 36px; line-height: 30px; color: @cGrey1; text-transform: none;
+    text-shadow: 0 0 1px #fff, 0 1px 2px rgba(0,0,0,0.3)
+}
+h2.sans {font-family: 'Raleway', sans-serif; text-transform: uppercase; 
+    text-shadow: 0 0 1px #fff, 0 1px 2px rgba(0,0,0,0.3)
+}
 
 h3, h4 {font-family: 'Open Sans', Arial, sans-serif ;}
 h3{    
@@ -45,7 +50,14 @@ p {font-weight: normal;}
 .small {font-size: .8em;}
 
 // =================================================================== general el setup
+.inline {display: inline-block;}
+
 img {width: 100%;height: auto;}
+button:focus,
+input:focus
+{
+    -webkit-box-shadow: none !important;
+    outline: none !important;}
 
 a, a:visited, a:hover {
     color: inherit;
@@ -86,6 +98,7 @@ ul, li {list-style: none;}
 }
 
 .c-btn {
+    display: block;
     text-indent: 0%; 
     text-align: center; 
     vertical-align: middle; 
@@ -221,7 +234,7 @@ footer{
     } 
 // ===========================================================================  header
 
-header {background: @cGrey3;}
+header {background: @cPink; height: 65px;}
 
 .navbar {
   height: 65px;

@@ -1,0 +1,94 @@
+<script src="js/lib/idangerous.swiper.js"></script>
+<script src="js/lib/idangerous.swiper.progress.min.js"></script>
+<script src="js/lib/idangerous.swiper.3dflow.js"></script>
+<script>
+
+$(function(){
+  var mySwiper = $('.swiper-container').swiper({
+	// pagination: '.pagination',
+    loop:true,
+    grabCursor: true,
+    paginationClickable: true,
+     speed : 300, //Set animation duration to 500ms
+     // freeMode : true, //Enable free mode
+     freeModeFluid : true, //Enable 'fluid' free mode
+	 slidesPerView: 3,
+	loop:true,
+
+     tdFlow: {
+     		rotate : 30,
+			stretch :10,
+			depth: 150,
+			modifier : 1,
+			shadows:true
+	    }
+
+  });
+
+  $('.arrow-left').on('click', function(e){
+    e.preventDefault()
+    mySwiper.swipePrev()
+  })
+  $('.arrow-right').on('click', function(e){
+    e.preventDefault()
+    mySwiper.swipeNext()
+  })
+ })
+
+// ===========================  Events section JS
+
+// title Array 
+var etitle = ['event1',
+					'event2',
+					'event3',
+					'event4',
+					'event5',
+					'event6',
+					'event7',
+					'event8'
+					];
+// location Array 
+
+var elocation=['location1',
+					'location2',
+					'location3',
+					'location4',
+					'location5',
+					'location6',
+					'location7',
+					'location8'
+					];
+
+//  time Array 
+etime=['time1',
+			'time2',
+			'time3',
+			'time4',
+			'time5',
+			'time6',
+			'time7',
+			'time8'
+			];
+
+//  image Array 
+eimage=['https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSLVHCL3Zge09_3Ojypr_C4UMBuvCfqqQcwfYaHV208N4Fpd4mX',
+			 'image2',
+			 'image3',
+			 'image4',
+			 'image5',
+			 'image6',
+			 'image7',
+			 'image8'
+			];
+
+$('.swiper-slide').each(function(){
+	var eventId = $(this).attr('data-eventid');
+	$(this).find('.c-event-title').html(etitle[eventId]);
+	$(this).find('.c-event-location').html(elocation[eventId]);
+	$(this).find('.c-event-time').html(etime[eventId]);
+	$(this).find('img').attr("src", eimage[eventId]);
+});
+
+
+
+</script>

@@ -1,7 +1,7 @@
 @import "_meme-variables.less";
 @import "_meme-mixins.less";
 @import "mixins.less";
-
+// ======================================= banner area
 .inner-banner,
 #banner-wrp {
 	width: 100%;
@@ -10,19 +10,130 @@
 	background-position: bottom center;
     background-size: cover;
     .transition(all 1s);
-    margin-top: 65px;
 }
+// ========================================== search box
+.c-home-searchbox {
+    z-index: 10;
+    color: @cGrey2;
+    width: 70%;
+    height: 50px;
+    margin: -25px auto 0 auto;
+    position: relative;
+    font-size: 2*@baseFontSize;
+    input[type="text"] {
+      font-family: 'Open Sans', 'helvetica', sans-serif;
+      font-size: 1.5*@baseFontSize;
+      padding: 1.5*@baseFontSize;
+      border: none;
+      border-bottom: solid 2px #c9c9c9;
+      transition: border 0.3s;
+      background: @cLight;    
+    }
+    .placeholder(lighten(@cGrey2, 20%));
+    span {margin: 0; padding: 0;}
+    .c-search {background: transparent; 
+        border: 0; height: 100%; with: 80%;
+        position: relative;
+        margin-left: -60px;
+        text-align: center;
+        }
+    
+   input[type="text"]:focus,
+   input[type="text"].focus {
+      border-bottom: solid 2px #969696;
+    }
+
+}
+
+// ========================================================= events area
+
+.c-home-events {box-shadow: 0px 10px 5px -5px #000;
+    .c-home-events-inner{
+    width: 100%;
+    height: 350px;
+    padding: 50px 20px;
+    margin: -25px auto 0 auto;
+    position: relative;
+    text-align: center;
+    h2 {margin: 0 auto 36px auto; color: #42ADC7;}
+    
+    .c-event-arrows{
+        	position: absolute;
+        	top: 50%;
+        	margin-top: 30px;
+        	width: 30px;
+        	height: 30px;
+        	background: #efefef;
+        	border-radius: 50%;
+        	i {line-height: 30px;}
+        }
+     .arrow-left{left: 10px;}   
+     .arrow-right{right: 10px;}
+    }  
+    
+    .swiper-container{
+        	height: 200px;
+        	width: 80%;
+        	overflow: hidden;
+        	color: #232323;	
+        }
+    
+    .swiper-slide {
+        border-bottom: 1px solid #efefef;
+        img{width: 100%; height: 100%;}
+        .slide-content {
+            	position: absolute;
+            	left: 0;
+            	top: 0;
+            	background: rgba(255,255,255, .9);
+            	border:1px solid #eee;
+            	box-shadow: 0px 5px 5px -5px #000;
+            	width: 250px;
+            	height: 200px;
+            	text-align: left;
+            	padding: 2px 5px;
+            	font-size: 14px;
+            	border-radius:  0 5px 5px 0;
+            	opacity: 0;
+            	transition: left .3s;
+            	transition: opacity .3s linear .1s;
+            	z-index: -1;
+            	
+            	span {display: inline-block; width: 20px; 
+            	        height: 20px; text-align: center; 
+            	        line-height: 20px; margin-right: 10px;
+            	        }
+            	a:hover,
+            	a:focus{ color: yellow;}
+            	h4,
+                ul {margin: 1em 0; }
+            }            
+        }
+       
+}
+.swiper-slide:hover .slide-content {left: 100%; opacity: 1;}
+
+.c-btn.go {
+ 	width: 80%;
+	margin: 0 auto;
+	border-radius: 2px;
+	background-color: rgb(182, 176, 60);
+	color: white;
+}
+ .c-btn.go:hover{ color: white; background-color: rgb(163, 157, 39);}
+ .c-btn.go h5 {margin: 0;} 
+
 
 
 
 // ========================================================================= responsive 
 @media (max-width: 1199px ){
-    #banner-wrp {height: 400px;}
+    .inner-banner, #banner-wrp {height: 400px;}
     }
 @media (max-width: 992px){
-    #banner-wrp {height: 340px;}
+    .inner-banner, #banner-wrp {height: 340px;}
 }
 
 @media (max-width: 767px){
-    #banner-wrp {height: 270px;}
+    .inner-banner,#banner-wrp {height: 270px;}
 }

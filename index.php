@@ -8,7 +8,7 @@
 
 
 <!-- CUSTOM FOOT -->
-
+<?php include_once('includes/i-home-foot.html'); ?>
 
 <!-- DEFAULT FOOT -->
 <?php include_once('includes/FOOT.html'); ?>
