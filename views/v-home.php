@@ -28,7 +28,7 @@
 			</div>
 			<div class="c-banner-heading">
 				<h1>geting the most out of living in the U.S.</h1>
-				<h3 class="sans">International Students and Professionals</h3>
+				<h3 class="sans">International Students and Professionals in NYC</h3>
 			</div>
 		</section>
 
