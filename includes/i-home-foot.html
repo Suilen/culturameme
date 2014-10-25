@@ -38,47 +38,47 @@ $(function(){
 // ===========================  Events section JS
 
 // title Array 
-var etitle = ['event1',
-					'event2',
-					'event3',
-					'event4',
-					'event5',
-					'event6',
-					'event7',
-					'event8'
+var etitle = ['Wicked',
+					'Rite of Passage: The Early Years of Vienna Actionism',
+					'New York Yankees',
+					'Smorgasburg',
+					'24-Karat Gold Photo Exhibit',
+					"2014 Macy's Thanksgiving Day Parade",
+					'Halloween Party',
+					'41st Annual Village Halloween Parade'
 					];
 // location Array 
 
-var elocation=['location1',
-					'location2',
-					'location3',
-					'location4',
-					'location5',
-					'location6',
-					'location7',
-					'location8'
+var elocation=['222 W 51st St, New York, NY',
+					'32 E 69th St, New York',
+					'1 E 161st St, Bronx, NY',
+					'Brooklyn Bridge Park Main St',
+					'Morrison Hotel Gallery 116 Prince St',
+					'W77th St. to Columbus Circle',
+					'247 W 37th St, New York, NY',
+					'6th Avenue'
 					];
 
 //  time Array 
-etime=['time1',
-			'time2',
-			'time3',
-			'time4',
-			'time5',
-			'time6',
-			'time7',
-			'time8'
+etime=['Saturday, October 25, 2014',
+			'Tue–Sat 10am–6pm',
+			'Wednesday, October 29',
+			'Saturday, November 1, 2014',
+			'Fri Oct 24 - Fri Oct 31',
+			'November 27, 2014, 9 am',
+			'Friday, October 31, 2014',
+			'Fri Oct 31, 2014, 7-10 pm'
 			];
 
 //  image Array 
-eimage=['https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSLVHCL3Zge09_3Ojypr_C4UMBuvCfqqQcwfYaHV208N4Fpd4mX',
-			 'image2',
-			 'image3',
-			 'image4',
-			 'image5',
-			 'image6',
-			 'image7',
-			 'image8'
+eimage=['home-event-0.jpg',
+			'home-event-1.jpg',
+			 'home-event-2.jpg',
+			 'home-event-3.jpg',
+			 'home-event-4.jpg',
+			 'home-event-5.jpg',
+			 'home-event-6.jpg',
+			 'home-event-7.jpg'
 			];
 
 $('.swiper-slide').each(function(){
@@ -86,7 +86,7 @@ $('.swiper-slide').each(function(){
 	$(this).find('.c-event-title').html(etitle[eventId]);
 	$(this).find('.c-event-location').html(elocation[eventId]);
 	$(this).find('.c-event-time').html(etime[eventId]);
-	$(this).find('img').attr("src", eimage[eventId]);
+	$(this).find('img').attr("src", 'images/'+ eimage[eventId]);
 });
 
 
