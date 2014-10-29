@@ -50,7 +50,7 @@ background: @cWrp;
     .placeholder(lighten(@cGrey2, 20%));
     span {margin: 0; padding: 0;}
     .c-search {background: transparent; 
-        border: 0; height: 100%; with: 80%;
+        border: 0; height: 100%; 
         position: relative;
         margin-left: -60px;
         text-align: center;
@@ -165,6 +165,7 @@ background: @cWrp;
     text-shadow:@cTextshadow2;
     }
 .c-home-topics-i{
+    height: 550px;
     text-align: left;
     border: 1px solid #F7F7F7;
     margin: 10px  auto;
@@ -172,6 +173,7 @@ background: @cWrp;
     background: @cLight url(http://subtlepatterns.com/patterns/diamond_upholstery.png);
     
     .c-topic-head {height: 125px;}
+    .c-topic-body {height: 400px;}
     
     h2 {color: @cDarkGreen;
     margin: 0 0 20px -15px;
@@ -309,4 +311,31 @@ background: @cWrp;
 
 @media (max-width: 767px){
     .inner-banner,#banner-wrp {height: 270px;}
+    
+    .c-home-searchbox {
+        width: 90%;
+        }
+}
+
+@media (max-width: 480px) {
+    .c-section-head { h2{font-size: 26px;}}
+    .c-banner-heading {
+        h1 {font-size: 22px;}
+        h3 {font-size: 16px;}
+        }
+    .c-home-search{
+        .container {padding: 0;}
+        .c-home-searchbox {
+            // height: 30px;
+            margin: 1px auto 0 auto;
+            font-size: 24px;
+            input[type="text"] {
+              font-size: 1*@baseFontSize;
+              padding: 1.6*@baseFontSize @baseFontSize; 
+            }
+            .c-search {display: none};
+        }
+    }
+    
+    .c-home-events .swiper-container {height: 160px;}
 }

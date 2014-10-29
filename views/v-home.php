@@ -41,7 +41,7 @@
 
 <!-- search box -->
 			<form class="c-home-searchbox row" role="search">
-				<span class="form-group col-lg-11 col-md-11 col-sm-11 col-xs-11">
+				<span class="form-group col-lg-11 col-md-11 col-sm-11 col-xs-12">
 					<input type="text" class="form-control" placeholder=":Search for Events | Topics | Tags">
 				</span>
 			  	<span class="col-lg-1 col-md-1 col-sm-1 col-xs-1" >

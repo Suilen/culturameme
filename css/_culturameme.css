@@ -14,6 +14,9 @@
   margin: 0;
   padding: 0;
 }
+html {
+  background: #eee;
+}
 body {
   font-family: 'Quattrocento Sans', 'Helvetica Neue', Helvetica, Sans-Serif;
   font-size: 16px;
@@ -22,6 +25,15 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background: #fefefe;
+  max-width: 1440px;
+  margin: 0 auto;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  -moz-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  -ms-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  -o-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
 }
 h1 {
   font-family: 'Libre Baskerville', serif;
@@ -137,6 +149,14 @@ li {
   -o-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
   -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+  display: block;
+  margin: 0;
+}
+.navbar-fixed-top .navbar-collapse,
+.navbar-fixed-bottom .navbar-collapse {
+  max-height: initial;
 }
 .c-logo,
 .c-btn {
@@ -401,6 +421,11 @@ header {
   }
 }
 @media (max-width: 767px) {
+  #signup,
+  #signup:focus {
+    background-color: #318699;
+    border-color: #318699;
+  }
   .navbar-brand {
     display: block;
   }
@@ -422,6 +447,13 @@ header {
     color: #fff8f6;
     text-align: center;
   }
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: none;
+    margin: 0;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu {
+    display: block !important;
+  }
   footer .row {
     width: 80%;
   }
@@ -432,8 +464,8 @@ header {
 }
 @media (max-width: 480px) {
   .navbar-default .navbar-nav > li > a {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
     text-align: center;
   }
   .navbar-brand.c-logo {

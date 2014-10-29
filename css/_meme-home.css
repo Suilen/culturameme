@@ -82,7 +82,6 @@ body {
   background: transparent;
   border: 0;
   height: 100%;
-  with: 80%;
   position: relative;
   margin-left: -60px;
   text-align: center;
@@ -217,6 +216,7 @@ body {
   text-shadow: 0 1px 1px #c2c2c2;
 }
 .c-home-topics-i {
+  height: 550px;
   text-align: left;
   border: 1px solid #F7F7F7;
   margin: 10px  auto;
@@ -225,6 +225,9 @@ body {
 }
 .c-home-topics-i .c-topic-head {
   height: 125px;
+}
+.c-home-topics-i .c-topic-body {
+  height: 400px;
 }
 .c-home-topics-i h2 {
   color: #318699;
@@ -382,5 +385,36 @@ body {
   .inner-banner,
   #banner-wrp {
     height: 270px;
+  }
+  .c-home-searchbox {
+    width: 90%;
+  }
+}
+@media (max-width: 480px) {
+  .c-section-head h2 {
+    font-size: 26px;
+  }
+  .c-banner-heading h1 {
+    font-size: 22px;
+  }
+  .c-banner-heading h3 {
+    font-size: 16px;
+  }
+  .c-home-search .container {
+    padding: 0;
+  }
+  .c-home-search .c-home-searchbox {
+    margin: 1px auto 0 auto;
+    font-size: 24px;
+  }
+  .c-home-search .c-home-searchbox input[type="text"] {
+    font-size: 16px;
+    padding: 25.6px 16px;
+  }
+  .c-home-search .c-home-searchbox .c-search {
+    display: none;
+  }
+  .c-home-events .swiper-container {
+    height: 160px;
   }
 }

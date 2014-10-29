@@ -1,5 +1,7 @@
 
 	
+	<script src="js/lib/jquery.mCustomScrollbar.concat.min.js"></script>
+
 	<script src="js/lib/d3.v3.min.js"></script>
 	<script src="js/lib/trianglify.min.js"></script>
 	<!-- shrink navbar on scroll -->
@@ -8,6 +10,16 @@
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
+<script>
+$('#signup').click(function(){
+	$('.navbar-collapse.collapse.in').removeClass('in');
+
+});
+
+
+</script>
+
+<!-- change banner & primary nav bgs -->
 <script>
 
 	var bannerImgs = [ 'nyc-skyline0.png',
@@ -86,6 +98,16 @@
         });
 
 </script>	
+
+<!-- apply mcScrollbar to els -->
+<script>
+(function($){
+    $(window).load(function(){
+        $(".c-topic-body").mCustomScrollbar({theme:"minimal-dark"});
+    });
+})(jQuery);
+
+</script>
 </body>
 
 </html>

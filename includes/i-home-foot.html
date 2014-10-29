@@ -3,7 +3,18 @@
 <script src="js/lib/idangerous.swiper.3dflow.js"></script>
 <script>
 
+
+
 $(function(){
+
+  var showSlide = 3;
+	if (window.outerWidth < 480){
+	    	showSlide = 1;
+	    } 
+
+	console.log(window.outerWidth);
+console.log(showSlide);
+
   var mySwiper = $('.swiper-container').swiper({
 	// pagination: '.pagination',
     loop:true,
@@ -12,7 +23,7 @@ $(function(){
      speed : 300, //Set animation duration to 500ms
      // freeMode : true, //Enable free mode
      freeModeFluid : true, //Enable 'fluid' free mode
-	 slidesPerView: 3,
+	 slidesPerView: showSlide,
 	loop:true,
 
      tdFlow: {

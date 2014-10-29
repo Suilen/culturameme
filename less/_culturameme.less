@@ -11,6 +11,10 @@
 }
 
 // =========================================================================  Typography
+html {
+    background: #eee;
+    }
+
 body {
     font-family: @bodyFont, @backupFonts;
     font-size: @baseFontSize;
@@ -19,7 +23,12 @@ body {
     color: @cGrey1;
     background-repeat: no-repeat;
     background-size: cover;
-    background: @cGrey3;    
+    background: @cGrey3;   
+    max-width: 1440px;
+    margin: 0 auto;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    .box-shadow(0 0 20px 0 rgba(0, 0, 0, 0.3));
 }
 
 h1 {
@@ -86,6 +95,14 @@ ul, li {list-style: none;}
 	.box-shadow(1px 1px 4px rgba(0, 0, 0, 0.4));
 }
 
+// bootstrap nav dropdown on hover - fix
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;    
+    margin: 0;
+}
+
+.navbar-fixed-top .navbar-collapse, 
+.navbar-fixed-bottom .navbar-collapse {max-height: initial;}
 // ============================================================================ logos&btn basic
 .c-logo, .c-btn {
     display: inline-block;
@@ -328,6 +345,11 @@ footer .row {width: 80%;
         }
 }
 @media (max-width: 767px){
+        #signup, #signup:focus {background-color: @cDarkGreen; border-color: @cDarkGreen;
+        // color: #34a7c1;text-shadow: 0 1px 1px #fff;
+        }      
+        
+        
         .navbar-brand { display: block; }
         .navbar-nav {  margin-top: 3px;}
         .navbar-default .navbar-nav>li>a{text-align: center;}  
@@ -341,6 +363,12 @@ footer .row {width: 80%;
         color: @cLight;
         text-align: center;
         }
+       ul.nav li.dropdown:hover > ul.dropdown-menu {
+            display: none;    
+            margin: 0;
+        }
+        .navbar-default .navbar-nav .open .dropdown-menu {display: block !important;}    
+        
         footer .row {width: 80%; 
             .lf p, 
              .rt {text-align: center;}
@@ -349,8 +377,8 @@ footer .row {width: 80%;
 
 @media (max-width: 480px) {
     .navbar-default .navbar-nav>li>a{
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
         text-align: center;
         }   
     .navbar-brand.c-logo {width: 200px; font-size: 28px;}
@@ -358,5 +386,5 @@ footer .row {width: 80%;
     
     .lf p, 
      .rt {text-align: center;}}
-    }
+}
         
