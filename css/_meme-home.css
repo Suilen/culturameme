@@ -364,7 +364,8 @@ body {
   font-weight: bold;
   color: #f4d96e;
 }
-.c-home-groups .c-group-list li .c-group-i:hover .c-group-info， .c-home-groups .c-group-list li .c-group-i:focus .c-group-info {
+.c-home-groups .c-group-list li .c-group-i:hover .c-group-info,
+.c-home-groups .c-group-list li .c-group-i:focus .c-group-info {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -o-transform: scale(1);
