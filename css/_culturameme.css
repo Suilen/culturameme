@@ -77,7 +77,8 @@ p {
   font-family: 'Quattrocento Sans', 'helvetica neue', sans-serif;
   font-size: 14px ;
   font-weight: bold;
-  line-height: 20px ;
+  line-height: 16px ;
+  margin: 0 0 5px;
 }
 p {
   font-weight: normal;

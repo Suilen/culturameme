@@ -10,6 +10,11 @@ body {
 .c-home-events {
   background: #fefefe;
 }
+.c-home-topics,
+.c-home-groups,
+.c-home-register {
+  padding: 40px  0;
+}
 .c-home-banner {
   position: relative;
 }
@@ -23,7 +28,7 @@ body {
 }
 .c-home-banner .c-banner-heading h1 {
   text-transform: capitalize;
-  color: #f4d96e;
+  color: rgba(199, 29, 126, 0.9);
   text-shadow: 0 1px 1px #6f6f6f;
 }
 .inner-banner,
@@ -198,7 +203,6 @@ body {
   margin: 0;
 }
 .c-home-topics {
-  padding: 40px  0;
   text-align: center;
 }
 .c-home-topics h2 {
@@ -216,7 +220,7 @@ body {
   text-shadow: 0 1px 1px #c2c2c2;
 }
 .c-home-topics-i {
-  height: 550px;
+  height: 590px;
   text-align: left;
   border: 1px solid #F7F7F7;
   margin: 10px  auto;
@@ -224,14 +228,17 @@ body {
   background: #fff8f6 url(http://subtlepatterns.com/patterns/diamond_upholstery.png);
 }
 .c-home-topics-i .c-topic-head {
-  height: 125px;
+  height: 120px;
+}
+.c-home-topics-i .c-topic-head .c-toggle-topic {
+  display: none !important;
 }
 .c-home-topics-i .c-topic-body {
-  height: 400px;
+  height: 450px;
 }
 .c-home-topics-i h2 {
   color: #318699;
-  margin: 0 0 20px -15px;
+  margin: 0px 0px 15px -15px;
   font-size: 22px;
 }
 .c-home-topics-i h2 span {
@@ -245,9 +252,14 @@ body {
   text-align: center;
 }
 .c-home-topics-i .c-topic-items .row {
+  height: 90px;
+  overflow: hidden;
   border-bottom: 1px solid rgba(255, 255, 255, 0.6);
   background: #fefefe;
   border-bottom: 1px solid #efefef;
+}
+.c-home-topics-i .c-topic-items .row div.col-lg-10 div {
+  padding: 0 10px 0 0;
 }
 .c-home-topics-i .c-topic-items .c-user-thumb {
   height: 65px;
@@ -282,7 +294,6 @@ body {
   color: #6f6f6f;
 }
 .c-home-groups {
-  padding: 40px 0;
   background: #77c6d8 url('http://cdn.smithandkeller.com/wp-content/themes/smithandkeller/images/men-connect-transparent.png') top center;
 }
 .c-home-groups .c-section-head h2 {
@@ -364,7 +375,6 @@ body {
 .c-home-register {
   background: #f0f1ec;
   height: 400px;
-  padding: 40px 0;
 }
 .c-home-register h2 {
   color: #6f6f6f;
@@ -389,10 +399,28 @@ body {
   .c-home-searchbox {
     width: 90%;
   }
+  .c-home-topics-i .c-topic-items .row .col-xs-3 {
+    width: 18%;
+  }
+  .c-home-topics-i .c-topic-items .row .col-xs-9 {
+    width: 82%;
+  }
 }
 @media (max-width: 480px) {
+  .c-home-topics,
+  .c-home-groups,
+  .c-home-register {
+    padding: 10px  0;
+  }
+  .c-section-head {
+    margin-bottom: 10px;
+  }
   .c-section-head h2 {
-    font-size: 26px;
+    font-size: 20px;
+  }
+  .c-section-head h3.sans {
+    font-size: 18px;
+    margin: 0;
   }
   .c-banner-heading h1 {
     font-size: 22px;
@@ -407,6 +435,9 @@ body {
     margin: 1px auto 0 auto;
     font-size: 24px;
   }
+  .c-home-search .c-home-searchbox .col-xs-11 {
+    width: 100%;
+  }
   .c-home-search .c-home-searchbox input[type="text"] {
     font-size: 16px;
     padding: 25.6px 16px;
@@ -414,7 +445,48 @@ body {
   .c-home-search .c-home-searchbox .c-search {
     display: none;
   }
+  .c-home-events .c-home-events-inner {
+    padding: 55px 20px;
+    margin-top: -60px;
+  }
   .c-home-events .swiper-container {
     height: 160px;
+  }
+  .c-home-topics-i {
+    height: 605px;
+  }
+  .c-home-topics-i .c-topic-head {
+    height: 140px;
+  }
+  .c-home-topics-i .c-topic-head .c-toggle-topic {
+    display: none !important;
+  }
+  .c-home-topics-i .c-topic-head h2 {
+    margin: 0 0 13px -15px;
+  }
+  .c-home-topics-i .c-topic-head .c-tags {
+    height: 69px;
+    overflow: hidden;
+  }
+  .c-home-topics-i .c-topic-body {
+    height: 465px;
+  }
+  .c-home-topics-i .c-topic-items .row {
+    height: 65px;
+  }
+  .c-home-topics-i .c-topic-items .row .col-xs-3 {
+    width: 25%;
+  }
+  .c-home-topics-i .c-topic-items .row .col-xs-9 {
+    width: 75%;
+  }
+  .c-home-topics-i .c-topic-items .c-topic-i-title h4 {
+    margin: 5px 0 5px 0;
+    font-size: 14px;
+  }
+  .c-home-topics-i .c-topic-items .c-topic-i-content p,
+  .c-home-topics-i .c-topic-items .c-user-name p {
+    font-size: 12px;
+    margin: 0;
   }
 }
