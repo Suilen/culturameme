@@ -12,3 +12,4 @@
 
 <!-- DEFAULT FOOT -->
 <?php include_once('includes/FOOT.html'); ?>
+

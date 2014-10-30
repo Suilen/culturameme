@@ -1,0 +1,76 @@
+[
+  {
+    "contentarea": "s",
+    "uername":{"last": "Doe", "first": "John"},
+    "userimg":"images/home-event-1.jpg",
+    "title": "This is a fake title",
+    "url": "#",
+    "content": "Duis aute irure dolor in reprehenderit in voluptate velit. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.", 
+    "tags":["Study","office hours"]
+  },
+  {
+    "contentarea": "s",
+    "uername":{"last": "Doe", "first": "John"},
+    "userimg":"images/home-event-1.jpg",    
+    "title": "This is a fake title",
+    "url": "#",
+    "content": "Duis aute irure dolor in reprehenderit in voluptate velit. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.", 
+    "tags":["Study", "study group"]
+  },
+   {
+    "contentarea": "s",
+    "uername":{"last": "Doe", "first": "John"},
+    "userimg":"images/home-event-1.jpg",
+    "title": "This is a fake title",
+    "content": "Duis aute irure dolor in reprehenderit in voluptate velit. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.", 
+    "url": "#",
+    "tags":["Study", "academic writing", "essay"]
+  },
+  {
+    "contentarea": "s",
+    "uername":{"last": "Doe", "first": "John"},
+    "userimg":"images/home-event-1.jpg",
+    "title": "This is a fake title",
+    "content": "Duis aute irure dolor in reprehenderit in voluptate velit. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.", 
+    "url": "#",
+    "tags":["Study","presentation", "prezi"]
+  },
+   
+  {
+    "contentarea": "s",  
+    "uername":{"last": "Doe", "first": "John"},
+    "userimg":"images/home-event-1.jpg",
+    "title": "This is a fake title",
+    "content": "Duis aute irure dolor in reprehenderit in voluptate velit. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.", 
+    "url": "#",
+    "tags":["Study","reading"]
+  },
+  {
+    "contentarea": "s",
+    "uername":{"last": "Doe", "first": "John"},
+    "userimg":"images/home-event-1.jpg",
+    "title": "This is a fake title",
+    "url": "#",
+    "content": "Duis aute irure dolor in reprehenderit in voluptate velit. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.", 
+    "tags":["Study", "project","art"]
+  },
+   {
+    "contentarea": "s",
+    "uername":{"last": "Doe", "first": "John"},
+    "userimg":"images/home-event-1.jpg",
+    "title": "This is a fake title",
+    "url": "#",
+    "content": "Duis aute irure dolor in reprehenderit in voluptate velit. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.", 
+    "tags":["Study", "class discussion"]
+  },
+  {
+    "contentarea": "c",
+    "uername":{"last": "Doe", "first": "John"},
+    "userimg":"images/home-event-1.jpg",
+    "title": "This is a fake title",
+    "url": "#",
+    "content": "Duis aute irure dolor in reprehenderit in voluptate velit. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.", 
+    "tags":["Study"]
+  }
+
+]

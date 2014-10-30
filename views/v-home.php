@@ -28,7 +28,7 @@
 			</div>
 			<div class="c-banner-heading">
 				<h1>geting the most out of living in the U.S.</h1>
-				<h3 class="sans">International Students and Professionals in NYC</h3>
+				<h3 class="sans">International College Students in NYC</h3>
 			</div>
 		</section>
 
@@ -57,6 +57,7 @@
 
 <!-- topics -->
 	<?php include_once("includes/i-home-topics.html"); ?>
+	<?php include_once("includes/t-home-topics.html"); ?>
 
 <!-- groups -->
 	<?php include_once("includes/i-home-groups.html"); ?>

@@ -1,0 +1,41 @@
+<script id="template" type="x-tmpl-mustache">
+	
+	<li class="row">
+<!-- left col -->
+		<!-- user thumb-->
+		<div class="col-lg-2  col-md-2 col-sm-3  col-xs-3">
+			<div class="c-user-thumb">
+				<img src="{{userimg}}">
+			</div>
+		</div>
+
+<!-- right col -->
+		<div class="col-lg-10 col-md-10 col-sm-9  col-xs-9">
+			
+			<!-- topic details-->
+				<div>
+					<a href="{{url}}" class="c-topic-i-title"><h4>{{title}}</h4></a>
+					<div class="c-topic-i-content">
+						<p>{{content}}</p>
+					</div>
+				</div>
+				
+			<!-- user details -->
+				<div >
+	
+					<span class="c-user-name"><p class="inline">- {{uername.first}} {{uername.last}}</p></span>
+
+
+					<span class="inline">
+						<ul class="c-tags">
+						{{#tags}}
+							<li><a href="#">{{.}}</a></li>	
+						{{/tags}}										
+						</ul>
+					</span>
+				</div>
+			
+		</div>
+	</li>
+
+</script>
