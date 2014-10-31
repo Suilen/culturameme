@@ -145,40 +145,67 @@
     "tags":["Work", "phone interview"]
   },
   {
-    "contentarea": "c",
+    "contentarea": "p",
     "uername":{"last": "Doe", "first": "John"},
     "userimg":"#",
     "title": "",
     "url": "#",
     "content": "",
-    "tags":["Work", "green card"]
+    "tags":["Play", "trips"]
   },
   {
-    "contentarea": "c",
+    "contentarea": "p",
     "uername":{"last": "Doe", "first": "John"},
     "userimg":"#",
     "title": "",
     "url": "#",
     "content": "",
-    "tags":["Work", "green card"]
+    "tags":["Play", "eats", "NYC"]
   },
   {
-    "contentarea": "c",
+    "contentarea": "p",
     "uername":{"last": "Doe", "first": "John"},
     "userimg":"#",
     "title": "",
     "url": "#",
     "content": "",
-    "tags":["Work", "green card"]
+    "tags":["Play", "festival"]
   },
    {
-    "contentarea": "c",
+    "contentarea": "p",
     "uername":{"last": "Doe", "first": "John"},
     "userimg":"#",
     "title": "",
     "url": "#",
     "content": "",
-    "tags":["Work", "green card"]
+    "tags":["Play", "happy hours"]
+  },
+   {
+    "contentarea": "p",
+    "uername":{"last": "Doe", "first": "John"},
+    "userimg":"#",
+    "title": "",
+    "url": "#",
+    "content": "",
+    "tags":["Play", "drinks"]
+  },
+   {
+    "contentarea": "p",
+    "uername":{"last": "Doe", "first": "John"},
+    "userimg":"#",
+    "title": "",
+    "url": "#",
+    "content": "",
+    "tags":["Play", "drama"]
+  },
+  {
+    "contentarea": "p",
+    "uername":{"last": "Doe", "first": "John"},
+    "userimg":"#",
+    "title": "",
+    "url": "#",
+    "content": "",
+    "tags":["Play", "music"]
   },
  {
     "contentarea": "c",
@@ -187,7 +214,7 @@
     "title": "",
     "url": "#",
     "content": "",
-    "tags":["Work", "green card"]
+    "tags":["Connect", "talk to boss"]
   } 
 
 ]
