@@ -1,4 +1,86 @@
 [
+ {
+    "contentarea": "t",
+    "uername":{"last": "Doe", "first": "John"},
+    "userimg":"#",
+    "title": "",
+    "url": "#",
+    "src": "",
+    "content": "", 
+    "tags":["Connect"]
+  },
+  {
+    "contentarea": "c",
+    "uername":{"last": "Chin", "first": "Changxi"},
+    "userimg":"http://qph.is.quoracdn.net/main-thumb-5130986-50-LZyZ4PxoqIo9YDBaFf2xpEcSn8EsAN3a.jpeg",
+    "title": "How can I get better at talking to strangers?",
+    "url": "#",
+    "src": "http://www.quora.com/How-can-I-get-better-at-talking-to-strangers",
+    "content": "How do I get the conversation started with someone I don't know anything about? Any \"safe\" topics that people usually make small talk about?", 
+    "tags":["Connect","make friends"]
+  },
+  {
+    "contentarea": "c",
+    "uername":{"last": "Liang", "first": "Wei"},
+    "userimg":"http://img4.wikia.nocookie.net/__cb20061210031036/uncyclopedia/images/7/75/Avatar-O_rly_Owl.jpg",
+    "title": " \"Why are Chinese students always apologising for their poor English?\"",
+    "url": "#",
+    "src": "http://www.quora.com/Why-are-Chinese-people-always-apologising-for-their-poor-English",
+    "content": "This is a question from a friend. Sometimes, Chinese students' English may not be that poor after all. What's the mentality behind this whole sorry-my-English-is-poor attitude ?", 
+    "tags":["Connect","poor English", "self-critical"]
+  },
+  {
+    "contentarea": "c",
+    "uername":{"last": "Wu", "first": "Liz"},
+    "userimg":"http://qph.is.quoracdn.net/main-thumb-56523672-100-vmhzfdwwdzroeuvgciceiltsusyigwrj.jpeg",
+    "title": "Am I antisocial?",
+    "url": "#",
+    "src": "http://www.quora.com/Am-I-antisocial",
+    "content": "People think I am anti social when really I don't think I am. I like staying at home as opposed to going to parties or outside functions.  I absolutely despise people that try small talk with me, I feel like not only are they wasting my time they're wasting their own. My friends know how I am and they think I may come across as snobbish and antisocial to the others. Am I ..?", 
+    "tags":["Connect", "antisocial"]
+  },
+  {
+    "contentarea": "c",
+    "uername":{"last": "Kumar", "first": "Navi"},
+    "userimg":"http://www.sword-forum.com/download/file.php?avatar=11958_1336874043.jpg",
+    "title": "What do I lose if I don't use Facebook?",
+    "url": "#",
+    "src": "http://www.quora.com/What-do-I-lose-if-I-dont-use-Facebook",
+    "content": "I know Facebook is a waste of time for most of the time. It is kind of uncontrolled power, what I am looking for is that will I miss anything really important or it will be the same as usual. P.S. I am a software engineer, I spent most of my time in front of computers.", 
+    "tags":["Connect", "social media", "facebook"]
+  },
+  {
+    "contentarea": "c",
+    "uername":{"last": "kuang", "first": "Leo"},
+    "userimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyNzyNgQ1qhADxGD-i4NfDwlvDb5h6T8ThSo6xXffipuy2t7--EQ",
+    "title": "Which friend circle would you choose, and why?",
+    "url": "#",
+    "src": "http://www.quora.com/Which-friend-circle-would-you-choose-and-why",
+    "content": "Suppose you're asked to choose between two friend circles, A and B. A:- is the goody two shoes type of group. They're very studious and diligent in everything they do. Their way of fun and adventure is completely different, you can say it's like playing in a kids play area in a mall, very safe, no chance of risk whatsoever, in short, boring. B:- They're the bad ass kinds. Defying every rule that's been placed with the unofficial motto that rules are meant to be broken. But they hardly study, they are ready to have new experiences, regardless of how risky it is. Booze, smoking, bring it on. But inspite of all this, they stick together, and always there when you need their help in any way. So, which group would you choose?", 
+    "tags":["Connect", "circles"]
+  },
+  {
+    "contentarea": "c",
+    "uername":{"last": "Yon", "first": "Min"},
+    "userimg":"http://qph.is.quoracdn.net/main-thumb-17033694-50-nqxdbtsxqxfduupbdosxqrxyzzxtolyo.jpeg",
+    "title": "What can I do to be more social at college parties?",
+    "url": "#",
+    "src": "http://www.quora.com/What-can-I-do-to-be-more-social-at-college-parties",
+    "content": "I recently took a step back and realized that I am a bit awkward at parties. I usually stand around and watch as everyone else is either talking or dancing. I am getting kinda sick of it and I want to start enjoying myself, but I am not sure where to start. I tried observing my friend, but he just goes up to girls and starts dancing and then they responded by dancing back. I am really scared of rejection, which is probably why I am so conscious of myself at parties, but I don't know how to get over it.", 
+    "tags":["Connect", "party"]
+  },
+
+ {
+    "contentarea": "c",
+    "uername":{"last": "Xia", "first": "Rocky"},
+    "userimg":"http://qph.is.quoracdn.net/main-thumb-5260051-50-AxWi2m29Th7kBioul9JwArqty3ugY9PI.jpeg",
+    "title": "If a company culture sucks, should you tell the CEO honestly?",
+    "url": "#",
+    "src": "http://www.quora.com/If-a-company-culture-sucks-should-you-tell-the-CEO-honestly",
+    "content": "As a new employee at a company, after a few weeks of talking to lots and lots of people, I've realized that the culture is toxic. . Should I, as a new employee, set up a meeting with the CEO and tell him (in the hope he might try to improve it), or should I just quit and look for something better?",
+    "tags":["Connect", "talk to boss"]
+  },
+
   {
     "contentarea": "s",
     "uername":{"last": "Li", "first": "Ning"},
@@ -70,15 +152,7 @@
     "content": "Somebody told me to start with visiting them in office hours. If I could do that a couple of times, I could then invite them to lunch. Is this how I should do?", 
     "tags":["Study", "professors", "office hours"]
   },
-  {
-    "contentarea": "c",
-    "uername":{"last": "Doe", "first": "John"},
-    "userimg":"images/home-event-1.jpg",
-    "title": "This is a fake title",
-    "url": "#",
-    "content": "Duis aute irure dolor in reprehenderit in voluptate velit. Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.", 
-    "tags":["Connect"]
-  },
+ 
   {
     "contentarea": "w",
     "uername":{"last": "Chang", "first": "Hui-ling"},
@@ -218,16 +292,6 @@
     "src":"http://www.quora.com/Pop-Music/What-are-the-most-hated-chart-topping-songs-and-why",
     "content": "Not asking for songs that you personally hate, but songs that are widely hated.",
     "tags":["Play", "music", "Justin Bieber"]
-  },
- {
-    "contentarea": "c",
-    "uername":{"last": "Xia", "first": "Rocky"},
-    "userimg":"http://qph.is.quoracdn.net/main-thumb-5260051-50-AxWi2m29Th7kBioul9JwArqty3ugY9PI.jpeg",
-    "title": "If a company culture sucks, should you tell the CEO honestly?",
-    "url": "#",
-    "src": "http://www.quora.com/If-a-company-culture-sucks-should-you-tell-the-CEO-honestly",
-    "content": "As a new employee at a company, after a few weeks of talking to lots and lots of people, I've realized that the culture is toxic. . Should I, as a new employee, set up a meeting with the CEO and tell him (in the hope he might try to improve it), or should I just quit and look for something better?",
-    "tags":["Connect", "talk to boss"]
-  } 
+  }
 
 ]
