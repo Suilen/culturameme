@@ -388,8 +388,8 @@ body {
   opacity: 1;
 }
 .c-home-register {
+  display: none;
   background: #f0f1ec;
-  height: 400px;
 }
 .c-home-register h2 {
   color: #6f6f6f;

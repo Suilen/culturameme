@@ -6,13 +6,13 @@
  		var w = 0;
  		var p = 0;
  		var c = 0;
- 		console.log(data[7])
+ 		// console.log(data[7])
  		$('.c-topic-items').empty();
  	$.each( data, function(arrayID,item) {	
  		var template = $('#template').html();
 
 		var rendered = Mustache.render(template,item);
-		console.log(item.contentarea);
+		// console.log(item.contentarea);
 
 		if(item.contentarea === 'c'){
  			c++;
