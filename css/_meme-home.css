@@ -271,11 +271,25 @@ body {
   height: 100%;
   width: 100%;
 }
-.c-home-topics-i .c-topic-items .c-topic-i-title:hover {
+.c-home-topics-i .c-topic-items .c-topic-i-title h4 {
+  font-family: 'Cardo', serif;
+  text-transform: none;
+  color: #07477d;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 17px;
+  display: block;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.c-home-topics-i .c-topic-items .c-topic-i-title:hover h4 {
   color: #34a7c1;
 }
 .c-home-topics-i .c-topic-items .c-topic-i-content p {
   display: block;
+  color: #6f6f6f;
   font-size: 14px;
   width: 100%;
   white-space: nowrap;
