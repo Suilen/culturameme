@@ -1,6 +1,9 @@
 
 (function() {
   var topics = "data/topics.json";
+ 
+
+// render data with mustache 
   $.getJSON( topics, function( data ) {
 		var s = 0;
  		var w = 0;
@@ -9,7 +12,7 @@
  		// console.log(data[7])
  		$('.c-topic-items').empty();
  	$.each( data, function(arrayID,item) {	
- 		var template = $('#template').html();
+ 		var template = $('#topic-template').html();
 
 		var rendered = Mustache.render(template,item);
 		// console.log(item.contentarea);
@@ -37,4 +40,7 @@
       	 
         });
 	});
+
+	
+
 })();

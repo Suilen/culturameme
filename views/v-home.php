@@ -54,7 +54,6 @@
 <!-- event slides -->
 	<?php include_once("includes/i-home-events.html"); ?>
 
-
 <!-- topics -->
 	<?php include_once("includes/i-home-topics.html"); ?>
 	<?php include_once("includes/t-home-topics.html"); ?>

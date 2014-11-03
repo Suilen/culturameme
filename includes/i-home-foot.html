@@ -1,9 +1,9 @@
+<!-- event slider -->
 <script src="js/lib/idangerous.swiper.js"></script>
 <script src="js/lib/idangerous.swiper.progress.min.js"></script>
 <script src="js/lib/idangerous.swiper.3dflow.js"></script>
+
 <script>
-
-
 
 $(function(){
 
@@ -34,69 +34,51 @@ $(function(){
   });
 
   $('.arrow-left').on('click', function(e){
-    e.preventDefault()
-    mySwiper.swipePrev()
-  })
+    e.preventDefault();
+    mySwiper.swipePrev();
+  });
   $('.arrow-right').on('click', function(e){
-    e.preventDefault()
-    mySwiper.swipeNext()
-  })
- })
+    e.preventDefault();
+    mySwiper.swipeNext();
+  });
+ });
 
 // ===========================  Events section JS
 
-// title Array 
-var etitle = ['Wicked',
-					'Rite of Passage: The Early Years of Vienna Actionism',
-					'New York Yankees',
-					'Smorgasburg',
-					'24-Karat Gold Photo Exhibit',
-					"2014 Macy's Thanksgiving Day Parade",
-					'Halloween Party',
-					'41st Annual Village Halloween Parade'
-					];
-// location Array 
+ getEvents();
 
-var elocation=['222 W 51st St, New York, NY',
-					'32 E 69th St, New York',
-					'1 E 161st St, Bronx, NY',
-					'Brooklyn Bridge Park Main St',
-					'Morrison Hotel Gallery 116 Prince St',
-					'W77th St. to Columbus Circle',
-					'247 W 37th St, New York, NY',
-					'6th Avenue'
-					];
+ function getEvents(){	
+	var events ="data/events.json";
 
-//  time Array 
-etime=['Saturday, October 25, 2014',
-			'Tue–Sat 10am–6pm',
-			'Wednesday, October 29',
-			'Saturday, November 1, 2014',
-			'Fri Oct 24 - Fri Oct 31',
-			'November 27, 2014, 9 am',
-			'Friday, October 31, 2014',
-			'Fri Oct 31, 2014, 7-10 pm'
-			];
+	 $.getJSON( events, function( data ) {
+	 	var etitle =[];
+		var etime=[];
+		var elocation =[];
+		var eimage =[];
 
-//  image Array 
-eimage=['home-event-0.jpg',
-			'home-event-1.jpg',
-			 'home-event-2.jpg',
-			 'home-event-3.jpg',
-			 'home-event-4.jpg',
-			 'home-event-5.jpg',
-			 'home-event-6.jpg',
-			 'home-event-7.jpg'
-			];
+		var i = 0;
+		$.each( data, function() {	
 
-$('.swiper-slide').each(function(){
-	var eventId = $(this).attr('data-eventid');
-	$(this).find('.c-event-title').html(etitle[eventId]);
-	$(this).find('.c-event-location').html(elocation[eventId]);
-	$(this).find('.c-event-time').html(etime[eventId]);
-	$(this).find('img').attr("src", 'images/'+ eimage[eventId]);
-});
+			etitle.push(this.etitle);
+			etime.push(this.etime);
+			elocation.push(this.elocation);
+			eimage.push(this.eimage);
 
+			console.log(this.etitle);
+
+			i++;
+			if ( i === 8 ) {return false;}	    	  	 
+		});
+
+		$('.swiper-slide').each(function(){
+		var eventId = $(this).attr('data-eventid');
+			$(this).find('.c-event-title').html(etitle[eventId]);
+			$(this).find('.c-event-location').html(elocation[eventId]);
+			$(this).find('.c-event-time').html(etime[eventId]);
+			$(this).find('img').attr("src", 'images/'+ eimage[eventId]);
+		});
+	});
+}
 
 
 </script>
