@@ -1,6 +1,7 @@
 [
  {
     "contentarea": "t",
+    "topicID": "n",
     "uername":{"last": "Doe", "first": "John"},
     "userimg":"#",
     "title": "",
@@ -11,6 +12,7 @@
   },
   {
     "contentarea": "c",
+    "topicID": "28",
     "uername":{"last": "Chin", "first": "Changxi"},
     "userimg":"http://qph.is.quoracdn.net/main-thumb-5130986-50-LZyZ4PxoqIo9YDBaFf2xpEcSn8EsAN3a.jpeg",
     "title": "How can I get better at talking to strangers?",
@@ -21,6 +23,7 @@
   },
   {
     "contentarea": "c",
+     "topicID": "27",
     "uername":{"last": "Liang", "first": "Wei"},
     "userimg":"http://img4.wikia.nocookie.net/__cb20061210031036/uncyclopedia/images/7/75/Avatar-O_rly_Owl.jpg",
     "title": " \"Why are Chinese students always apologising for their poor English?\"",
@@ -31,6 +34,7 @@
   },
   {
     "contentarea": "c",
+     "topicID": "26",
     "uername":{"last": "Wu", "first": "Liz"},
     "userimg":"http://qph.is.quoracdn.net/main-thumb-56523672-100-vmhzfdwwdzroeuvgciceiltsusyigwrj.jpeg",
     "title": "Am I antisocial?",
@@ -41,6 +45,7 @@
   },
   {
     "contentarea": "c",
+     "topicID": "25",
     "uername":{"last": "Kumar", "first": "Navi"},
     "userimg":"http://www.sword-forum.com/download/file.php?avatar=11958_1336874043.jpg",
     "title": "What do I lose if I don't use Facebook?",
@@ -51,6 +56,7 @@
   },
   {
     "contentarea": "c",
+     "topicID": "24",
     "uername":{"last": "kuang", "first": "Leo"},
     "userimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyNzyNgQ1qhADxGD-i4NfDwlvDb5h6T8ThSo6xXffipuy2t7--EQ",
     "title": "Which friend circle would you choose, and why?",
@@ -61,6 +67,7 @@
   },
   {
     "contentarea": "c",
+     "topicID": "23",
     "uername":{"last": "Yon", "first": "Min"},
     "userimg":"http://www.ewenzi.com/uploads/allimg/130526/145G95Q4-0.jpg",
     "title": "What can I do to be more social at college parties?",
@@ -72,6 +79,7 @@
 
  {
     "contentarea": "c",
+     "topicID": "22",
     "uername":{"last": "Xia", "first": "Rocky"},
     "userimg":"http://qph.is.quoracdn.net/main-thumb-5260051-50-AxWi2m29Th7kBioul9JwArqty3ugY9PI.jpeg",
     "title": "If a company culture sucks, should you tell the CEO honestly?",
@@ -83,6 +91,7 @@
 
   {
     "contentarea": "s",
+     "topicID": "21",
     "uername":{"last": "Li", "first": "Ning"},
     "userimg":"http://icons.iconarchive.com/icons/hopstarter/iron-man-avatar/256/Iron-Man-Mark-II-01-icon.png",
     "title": "What is the most embarrassing misspelling or grammatical error you have ever seen in a professional or academic presentation?",
@@ -93,6 +102,7 @@
   },
   {
     "contentarea": "s",
+     "topicID": "20",
     "uername":{"last": "H.", "first": "Diptarka"},
     "userimg":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTkR75NF5OvGfPMBHorstnLaP6niErlSEF6JidC4FExyWi9vI-slQ",    
     "title": "How are international students at Columbia University treated?",
@@ -103,6 +113,7 @@
   },
    {
     "contentarea": "s",
+     "topicID": "19",
     "uername":{"last": "Du", "first": "Yuhuang"},
     "userimg":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTESAeiTihIfn0TJRBPlVK6BkOg6GOYBoG9e1fG580RHwAtL3LA",
     "title": "Is there a template to write A+ essays?",
@@ -113,6 +124,7 @@
   },
   {
     "contentarea": "s",
+     "topicID": "18",
     "uername":{"last": "Jing", "first": "Sai"},
     "userimg":"http://38.media.tumblr.com/116af2f259bc6e0a481a8aecaec0c4f7/tumblr_ne7zh9Fuue1rpwm80o1_250.jpg",
     "title": "What are good alternatives to Prezi?",
@@ -123,7 +135,8 @@
   },
    
   {
-    "contentarea": "s",  
+    "contentarea": "s", 
+     "topicID": "17", 
     "uername":{"last": "Jun", "first": "Kyung"},
     "userimg":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT2-MTppOJFvFqF3G95A3vW-_949sBMMUyMdkrLsGSiep0wG_DC4g",
     "title": "Does speed reading really work? If so, how?",
@@ -134,6 +147,7 @@
   },
   {
     "contentarea": "s",
+     "topicID": "16",
     "uername":{"last": "Lee", "first": "Patrick"},
     "userimg":"http://media.steampowered.com/steamcommunity/public/images/avatars/28/28d63031762e66ae6290f956ad61c22b02e2ea7b_full.jpg",
     "title": "What are some ways to create a study group for a math book?",
@@ -144,6 +158,7 @@
   },
    {
     "contentarea": "s",
+     "topicID": "15",
     "uername":{"last": "Deng", "first": "Xian"},
     "userimg":"http://qsf.is.quoracdn.net/-9dd03eeb11527463.png",
     "title": "What is a good way to get to know professors at a large school?",
@@ -154,7 +169,8 @@
   },
  
   {
-    "contentarea": "w",
+    "contentarea": "w", 
+    "topicID": "14",
     "uername":{"last": "Chang", "first": "Hui-ling"},
     "userimg":"data:image/jpeg;base64,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",
     "title": "What's the best strategy for an international student to get a green card?",
@@ -166,6 +182,7 @@
  
   {
     "contentarea": "w",
+     "topicID": "13",
     "uername":{"last": "Lee", "first": "Christine"},
     "userimg":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSeoKKubbin_cf0f9xdWhvncbOG4fZk2lYE8GQDBJ3gnj7RHgmn",
     "title": "What are the good summer research programs/Internships for international students in US?",
@@ -175,6 +192,7 @@
   },
    {
     "contentarea": "w",
+     "topicID": "12",
     "uername":{"last": "Doe", "first": "John"},
     "userimg":"data:image/jpeg;base64,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",
     "title": "Can I use business email for personal purposes?",
@@ -185,6 +203,7 @@
   },
    {
     "contentarea": "w",
+     "topicID": "11",
     "uername":{"last": "Doe", "first": "John"},
     "userimg":"http://www.thesoulpitt.com/images/cool%20dude.jpg",
     "title": "How do I take full advantage of working at a start up company as an intern?",
@@ -195,6 +214,7 @@
   },
    {
     "contentarea": "w",
+     "topicID": "10",
     "uername":{"last": "Chu", "first": "Karen"},
     "userimg":"http://img2.blog.zdn.vn/56182583.jpg",
     "title": "Is there a dress code for women in technology?",
@@ -205,6 +225,7 @@
   },
    {
     "contentarea": "w",
+     "topicID": "9",
     "uername":{"last": "Chen", "first": "Andrew"},
     "userimg":"http://www.emoticonswallpapers.com/avatar/gamesicons/Turok_6.png",
     "title": "What are the chances of getting an on-campus job at NYU for computer science master's students?",
@@ -215,6 +236,7 @@
   },
   {
     "contentarea": "w",
+     "topicID": "8",
     "uername":{"last": "Lee", "first": "Kim"},
     "userimg":"http://img2.wikia.nocookie.net/__cb20121124155940/adventuretimewithfinnandjake/images/e/e1/Funny-cat-20.gif",
     "title": "How do I politely say no to a recruiter?",
@@ -225,6 +247,7 @@
   },
   {
     "contentarea": "p",
+     "topicID": "7",
     "uername":{"last": "Cheung", "first": "Andy"},
     "userimg":"https://33.media.tumblr.com/avatar_c16b96c8b6c4_128.png",
     "title": "What are the best hikes near New York City and accessible via Metro North?",
@@ -235,6 +258,7 @@
   },
   {
     "contentarea": "p",
+     "topicID": "6",
     "uername":{"last": "Binny", "first": "Suraj"},
     "userimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa-LpalFJJ00VGKk1Yv3pGMH1GwFAwktywrH0UJYMsmNWQwhPM",
     "title": "What are the best Indian restaurants in NYC?",
@@ -245,6 +269,7 @@
   },
   {
     "contentarea": "p",
+     "topicID": "5",
     "uername":{"last": "Luo", "first": "Jin"},
     "userimg":"https://31.media.tumblr.com/894614ebfe52683905e070f2a824f39d/tumblr_nabgrruOsr1qdzgy2o1_250.gif",
     "title": "Why are women's (and girls') Halloween costumes all so sexualized but not so for men?",
@@ -255,6 +280,7 @@
   },
    {
     "contentarea": "p",
+     "topicID": "4",
     "uername":{"last": "Xu", "first": "Hua"},
     "userimg":"http://www.qqzhi.com/uploadpic/2014-09-07/041909214.jpg",
     "title": "What is Happy Hour?",
@@ -265,6 +291,7 @@
   },
    {
     "contentarea": "p",
+     "topicID": "3",
     "uername":{"last": "King", "first": "Ethan"},
     "userimg":"http://qph.is.quoracdn.net/main-thumb-663-50-dPmHgHhxcW4uTfJ3fi4OAsLq9x8MCyLI.jpeg",
     "title": "What is the background of Americans drinking ice water?",
@@ -275,6 +302,7 @@
   },
    {
     "contentarea": "p",
+     "topicID": "2",
     "uername":{"last": "Qian", "first": "John"},
     "userimg":"http://qph.is.quoracdn.net/main-thumb-4632118-50-i03gY7xbsLg7Vn51ySBZHhbQUfTXRvgS.jpeg",
     "title": "Is there any TV series better than Game of Thrones?",
@@ -285,6 +313,7 @@
   },
   {
     "contentarea": "p",
+     "topicID": "1",
     "uername":{"last": "Wong", "first": "Ludi"},
     "userimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPje_C8lO86V7lOmXt28-ysiHIbtRYQ7aY9w4IfvEJaj4FPbZUiw",
     "title": "Pop Music: What are the most hated chart-topping songs, and why?",

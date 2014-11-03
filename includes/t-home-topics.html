@@ -14,7 +14,7 @@
 			
 			<!-- topic details-->
 				<div>
-					<a href="{{url}}" target="_blank" class="c-topic-i-title"><h4>{{title}}</h4></a>
+					<a href="{{url}}"  class="c-topic-i-title" data-id="{{title}}" id="topic{{topicID}}"><h4>{{title}}</h4></a>
 					<div class="c-topic-i-content">
 						<p>{{content}}</p>
 					</div>
@@ -29,7 +29,7 @@
 					<span class="inline">
 						<ul class="c-tags">
 						{{#tags}}
-							<li><a href="#">{{.}}</a></li>	
+							<li><a href="#" id="{{.}}" data-tag="{{.}}">{{.}}</a></li>	
 						{{/tags}}										
 						</ul>
 					</span>

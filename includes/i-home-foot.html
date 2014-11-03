@@ -64,20 +64,23 @@ $(function(){
 			elocation.push(this.elocation);
 			eimage.push(this.eimage);
 
-			console.log(this.etitle);
-
 			i++;
 			if ( i === 8 ) {return false;}	    	  	 
 		});
 
 		$('.swiper-slide').each(function(){
 		var eventId = $(this).attr('data-eventid');
+			$(this).find('.c-btn.go').attr('data-event',etitle[eventId] );
+			$(this).find('.c-event-title-link').attr('data-event',etitle[eventId] );
+			
 			$(this).find('.c-event-title').html(etitle[eventId]);
 			$(this).find('.c-event-location').html(elocation[eventId]);
 			$(this).find('.c-event-time').html(etime[eventId]);
 			$(this).find('img').attr("src", 'images/'+ eimage[eventId]);
 		});
 	});
+
+
 }
 
 
