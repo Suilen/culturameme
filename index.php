@@ -1,4 +1,3 @@
-<!-- DEFAULT HEAD -->
 <?php include_once("includes/HEAD.html"); ?>
 
 
