@@ -220,18 +220,32 @@ body {
   text-shadow: 0 1px 1px #c2c2c2;
 }
 .c-home-topics-i {
-  height: 590px;
+  height: 600px;
   text-align: left;
   border: 1px solid #F7F7F7;
   margin: 10px  auto;
-  padding-bottom: 10px ;
+  padding-bottom: 20px ;
   background: #fff8f6 url(http://subtlepatterns.com/patterns/diamond_upholstery.png);
 }
 .c-home-topics-i .c-topic-head {
   height: 120px;
 }
-.c-home-topics-i .c-topic-head .c-toggle-topic {
-  display: none !important;
+.c-home-topics-i .c-topic-head .c-toggle-expand {
+  position: absolute;
+  right: 0;
+  top: 0;
+  visibility: hidden;
+  opacity: 0;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.c-home-topics-i:hover .c-topic-head .c-toggle-expand {
+  opacity: 1;
+  visibility: visible;
 }
 .c-home-topics-i .c-topic-body {
   height: 450px;
@@ -468,7 +482,7 @@ body {
     height: 160px;
   }
   .c-home-topics-i {
-    height: 605px;
+    height: 615px;
   }
   .c-home-topics-i .c-topic-head {
     height: 140px;
