@@ -156,10 +156,11 @@ background: @cWrp;
 
 
 // ========================================================= topics area
+
 .c-home-topics {
     text-align: center;
     h2 {color: @cGrey2;}
-    // background: url('http://subtlepatterns.com/patterns/polonez_car.png');
+    // background: url('http://subtlepatterns.com/patterns/polonez_car.png');   
 }
 
 .c-topics-viewmore {
@@ -179,6 +180,7 @@ background: @cWrp;
     
     .c-topic-head {height: 120px;
     .c-toggle-expand{
+        display: inline-block !important;
         position: absolute;
         right: 0;
         top: 0;
@@ -349,6 +351,7 @@ background: @cWrp;
         width: 90%;
         }
     .c-home-topics-i{  
+       .c-topic-head {.c-toggle-expand{display: none !important;}}
         .c-topic-items {
             .row {
                 .col-xs-3 {width: 18%;}
@@ -390,7 +393,7 @@ background: @cWrp;
     .c-home-topics-i{
         height: 615px;
         .c-topic-head {height: 140px; 
-            .c-toggle-topic{display: none !important; }
+            .c-toggle-expand{display: none !important; }
              h2 {margin: 0 0 13px -15px;}
             .c-tags {height: 69px; overflow: hidden;}
             }   

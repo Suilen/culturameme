@@ -231,6 +231,7 @@ body {
   height: 120px;
 }
 .c-home-topics-i .c-topic-head .c-toggle-expand {
+  display: inline-block !important;
   position: absolute;
   right: 0;
   top: 0;
@@ -428,6 +429,9 @@ body {
   .c-home-searchbox {
     width: 90%;
   }
+  .c-home-topics-i .c-topic-head .c-toggle-expand {
+    display: none !important;
+  }
   .c-home-topics-i .c-topic-items .row .col-xs-3 {
     width: 18%;
   }
@@ -487,7 +491,7 @@ body {
   .c-home-topics-i .c-topic-head {
     height: 140px;
   }
-  .c-home-topics-i .c-topic-head .c-toggle-topic {
+  .c-home-topics-i .c-topic-head .c-toggle-expand {
     display: none !important;
   }
   .c-home-topics-i .c-topic-head h2 {
