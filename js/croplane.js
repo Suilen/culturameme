@@ -7,7 +7,11 @@ var originTOP= $("#c-home-study").offset().top;
 
 function expandBlock(id){
 	var el = "#"+id;
+	$(el).addClass("c-expanded");
 
+	blockWidth = $(el).css("width");
+
+	
 	var elLEFT = $(el).offset().left;
 	var elTOP= $(el).offset().top;
 
@@ -17,14 +21,12 @@ function expandBlock(id){
 	marginTOP = parseInt($(el).css('margin-top').slice(0, -2)) + (elTOP - originTOP);
 
 // Set margins
-	$(el).css({"margin-top" : marginTOP + "px", "margin-left" : marginLEFT + "px" } );
-
-	blockWidth = $(el).css("width");
-
-	$(el).addClass("c-expanded");
+	
+	
 	$(".c-home-topics-i:not("+el+")").fadeOut(600);
 	
 	$(el).delay(100).fadeTo(300,0.1, function(){
+		
 		$('html, body').animate({
        	 scrollTop: originTOP - 100
    		 }, 300);
