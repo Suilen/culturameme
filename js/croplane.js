@@ -22,7 +22,6 @@ function expandBlock(id){
 
 // Set margins
 	
-	
 	$(".c-home-topics-i:not("+el+")").fadeOut(600);
 	
 	$(el).delay(100).fadeTo(300,0.1, function(){
