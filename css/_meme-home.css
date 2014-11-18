@@ -223,7 +223,8 @@ body {
   text-shadow: 0 1px 1px #c2c2c2;
 }
 .c-home-topics-i {
-  height: 600px;
+  overflow: hidden;
+  height: 120px;
   text-align: left;
   border: 1px solid #F7F7F7;
   margin: 10px  auto;
@@ -431,6 +432,10 @@ body {
   }
   .c-home-searchbox {
     width: 90%;
+  }
+  .c-home-topics-i {
+    height: 600px;
+    overflow: initial;
   }
   .c-home-topics-i .c-topic-head .c-toggle-expand {
     display: none !important;

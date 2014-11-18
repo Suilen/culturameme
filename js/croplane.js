@@ -7,7 +7,7 @@ var originTOP= $("#c-home-study").offset().top;
 
 function expandBlock(id){
 	var el = "#"+id;
-	$(el).addClass("c-expanded");
+	$(el).addClass("c-expanded");	
 
 	blockWidth = $(el).css("width");
 
@@ -31,9 +31,7 @@ function expandBlock(id){
        	 scrollTop: originTOP - 100
    		 }, 300);
 
-	}).delay(300).animate({width: "100%", 'margin-left': "0", 'margin-top' : "0"},600).fadeTo(300,1);
-
-
+	}).delay(300).animate({width: "100%", 'margin-left': "0", 'margin-top' : "0", 'height': '600', 'overflow':''},600).fadeTo(300,1);
 	
 }
 
@@ -43,10 +41,10 @@ function shrinkBlock(blockID){
 
 	$(".c-expanded").fadeTo(300,1,function(){
 
-		$(this).animate({width: blockWidth,'margin-left': marginLEFT + "px", 'margin-top' : marginTOP + "px"},600,function(){
+		$(this).animate({'height': '120', 'overflow':'hidden', width: blockWidth,'margin-left': marginLEFT + "px", 'margin-top' : marginTOP + "px"},600,function(){
+			$(this).removeAttr("style");	
 			$(".c-home-topics-i:not("+el+")").fadeIn(600);
 			$(this).removeClass("c-expanded");
-			$(this).css({'margin-left': '', 'margin-top' : ''});
 		}).fadeTo(300,1);
 	})
 }
