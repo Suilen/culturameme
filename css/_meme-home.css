@@ -184,6 +184,9 @@ body {
 .c-home-events .swiper-slide .slide-content ul {
   margin: 1em 0;
 }
+.c-home-events .swiper-slide .slide-content h4 {
+  font-size: 14px;
+}
 .swiper-slide:hover .slide-content {
   left: 100%;
   opacity: 1;
