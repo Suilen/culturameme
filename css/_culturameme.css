@@ -369,11 +369,6 @@ header {
   -ms-border-radius: 0;
   -o-border-radius: 0;
   border-radius: 0;
-  -webkit-transition: all 250s;
-  -moz-transition: all 250s;
-  -o-transition: all 250s;
-  -ms-transition: all 250s;
-  transition: all 250s;
 }
 .navbar-default .navbar-toggle {
   margin-top: 2px;
@@ -473,8 +468,12 @@ header {
     color: #eee;
     text-shadow: 0 1px 1px #6f6f6f;
   }
-  .navbar-default .navbar-nav > .active > a {
-    background-color: rgba(255, 255, 255, 0.5);
+  .navbar-default .navbar-nav > .active > a,
+  .navbar-default .navbar-nav > .active:hover > a {
+    background-color: rgba(119, 198, 216, 0.8);
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+    color: #77c6d8;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #fff8f6;

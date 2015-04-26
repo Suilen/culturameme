@@ -283,7 +283,6 @@ header {
 	background-size: cover;
 	.box-shadow(0 0 10px #000);
 	.border-radius(0);
-	.transition(all, 250s);
     }
 .navbar-default .navbar-toggle{margin-top: 2px;}
 .navbar-default .navbar-nav>li>a {
@@ -369,9 +368,12 @@ footer .row {width: 80%;
         color: #eee;
         text-shadow: 0 1px 1px #6f6f6f;
         }  
-        .navbar-default .navbar-nav > .active > a {
-            background-color: rgba(255, 255, 255, 0.5);
+        .navbar-default .navbar-nav > .active > a ,
+        .navbar-default .navbar-nav > .active:hover > a{
+            background-color: rgba(119, 198, 216, 0.8);
             }
+        .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover{
+             color: #77c6d8;}
         .navbar-default .navbar-nav .open .dropdown-menu>li>a {
         color: @cLight;
         text-align: center;
