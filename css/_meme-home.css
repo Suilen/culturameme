@@ -460,6 +460,7 @@ body {
   }
   .c-home-banner .c-banner-heading {
     width: 100%;
+    top: calc(15%);
   }
   .c-home-topics,
   .c-home-groups,
