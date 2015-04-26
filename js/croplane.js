@@ -27,7 +27,7 @@ function expandBlock(id){
 	$(el).delay(100).fadeTo(300,0.1, function(){
 		
 		$('html, body').animate({
-       	 scrollTop: originTOP - 100
+       	 scrollTop: originTOP - 70
    		 }, 300);
 
 	}).delay(300).animate({width: "100%", 'margin-left': "0", 'margin-top' : "0", 'height': '600', 'overflow':''},600).fadeTo(300,1);

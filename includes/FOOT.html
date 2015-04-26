@@ -7,7 +7,6 @@
 	<script src="js/loading-topics.js"></script>
 
 	<script src="js/lib/d3.v3.min.js"></script>
-	<script src="js/lib/trianglify.min.js"></script>
 	<!-- shrink navbar on scroll -->
 	<script src="js/navonscroll.js"></script>
 
@@ -26,19 +25,14 @@ $('#signup').click(function(){
 <!-- change banner & primary nav bgs -->
 <script>
 
-	var bannerImgs = [ 'nyc-skyline0.png',
-						// 'nyc-skyline1.jpg',
-						// 'nyc-skyline2.jpg',
-						// 'nyc-skyline3.jpg',
+	var bannerImgs = [ 'banner-skyline.jpg',
 						'banner-lionking.jpg',
-						// 'banner-halloween.jpg'
 						'banner-thanksgiving.jpg'
 						]
 
 	var bannerCounter = 0;
 
-	changenavbar();
-	redraw();
+	// changenavbar();
 
 	function changebanner() {
 		if (bannerCounter < (bannerImgs.length-1)){
@@ -53,54 +47,6 @@ $('#signup').click(function(){
 		
 	}
 
-	function changenavbar() {
-			var t = new Trianglify({
-		    x_gradient: Trianglify.colorbrewer.PuOr[15],
-		    noiseIntensity: 0,
-		    cellsize: 20,
-		    fillOpacity: .4,
-		    strokeOpacity: 0
-			});
-			t.options.x_gradient = Trianglify.randomColor();
-			t.options.y_gradient = t.options.x_gradient.map(function(c){return d3.rgb(c).brighter(0.5);});
-            var pattern = t.generate(1000,50);
-
-            $('.navbar').css('background-image', pattern.dataUrl);
-        } 
-  	function redraw() {
-  			var t = new Trianglify({
-		    x_gradient: Trianglify.colorbrewer.PuOr[15],
-		    noiseIntensity: 0,
-		    cellsize: 100,
-		    fillOpacity: .1,
-		    strokeOpacity: 0
-			});
-			t.options.x_gradient = Trianglify.randomColor();
-            t.options.y_gradient = t.options.x_gradient.map(function(c){return d3.rgb(c).brighter(0.5);});
-            var pattern = t.generate(1000,600);
-
-            $('.inner-banner').css('background-image', pattern.dataUrl);
-        }    
-
-	function recolor() {
-            // t.options.x_gradient = Trianglify.randomColor();
-            // t.options.y_gradient = t.options.x_gradient.map(function(c){return d3.rgb(c).brighter(0.5);});
-        }
-
-	window.setInterval(function(){
-		 changebanner();
-		 changenavbar();
-            redraw();
-            return false;
-	}, 5000);
-
-
-	$('#recolor').click(function() {
-			changebanner();
-		 	changenavbar();
-            redraw();
-            return false;
-        });
 
 </script>	
 

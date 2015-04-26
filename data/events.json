@@ -1,23 +1,24 @@
 [
 
 {
-        "etitle": "Bryant Park winter skating",
-        "elocation": "Sixth Ave,Bryant Park, New York",
-        "etime": "Until Sun Jan 4, 2015",
-        "eimage": "home-event-9.jpg"
+        "etitle": "41st Annual Village Halloween Parade",
+        "elocation": "6th Avenue",
+        "etime": "Fri Oct 31, 2014, 7-10 pm",
+        "eimage": "home-event-7.jpg"
     },
 {
-        "etitle": "TC Annual Thanksgiving Dinner",
-        "elocation": "TC Grace Dodge Dining Hall",
-        "etime": "Thursday, November 27th, 12-3pm",
+        "etitle": "Sakura Matsuri",
+        "elocation": "Brooklyn botanical garden",
+        "etime": "April 25 - April 26, 2015, 10 a.m.–6 p.m.",
         "eimage": "home-event-15.png"
     }, 
 {
-        "etitle": "Open Mic Night",
-        "elocation": "TC Whittier Cafe",
-        "etime": "Friday, November 21st, 5:30-7:30pm",
-        "eimage": "home-event-14.jpg"
+        "etitle": "Thursday Night Football!",
+        "elocation": "TC New Res TV Lounge",
+        "etime": "Beginning Thursday, October 9th and continuing each week, 8:30pm",
+        "eimage": "home-event-10.png"
     }, 
+
 {
         "etitle": "Gratitude Project",
         "elocation": "TC Thorndike Lobby",
@@ -38,11 +39,12 @@
         "eimage": "home-event-11.jpg"
     },
 {
-        "etitle": "Thursday Night Football!",
-        "elocation": "TC New Res TV Lounge",
-        "etime": "Beginning Thursday, October 9th and continuing each week, 8:30pm",
-        "eimage": "home-event-10.png"
-    },    
+        "etitle": "Open Mic Night",
+        "elocation": "TC Whittier Cafe",
+        "etime": "Friday, November 21st, 5:30-7:30pm",
+        "eimage": "home-event-14.jpg"
+    }, 
+   
 {
         "etitle": "TCS New York City Marathon",
         "elocation": " Verrazano-Narrows Bridge, NY",
@@ -84,10 +86,11 @@
         "elocation": "247 W 37th St, New York, NY",
         "etime": "Friday, October 31, 2014",
         "eimage": "home-event-6.jpg"
-    }, {
-        "etitle": "41st Annual Village Halloween Parade",
-        "elocation": "6th Avenue",
-        "etime": "Fri Oct 31, 2014, 7-10 pm",
-        "eimage": "home-event-7.jpg"
+    }, 
+    {
+        "etitle": "Bryant Park winter skating",
+        "elocation": "Sixth Ave,Bryant Park, New York",
+        "etime": "Until Sun Jan 4, 2015",
+        "eimage": "home-event-9.jpg"
     }
 ]

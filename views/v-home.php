@@ -15,7 +15,7 @@
 	
 <!--HOME banner area -->
 		<section class="c-home-banner">
-			<div id="banner-wrp" style="background-image: url(images/nyc-skyline0.png);"> 
+			<div id="banner-wrp" > 
 				<div class="inner-banner" >
 
 				<!-- 	<div class="box-wrp">
@@ -23,11 +23,12 @@
 							<a href="#" class="c-btn content-wrp" id="recolor" >Click me</a>
 						</div>
 					</div> -->
+				<img src="images/banner-skyline.jpg">
 
 				</div>
 			</div>
 			<div class="c-banner-heading">
-				<h1>geting the most out of living in the U.S.</h1>
+				<h1>Fun, Opportunity, and Friends</h1>
 				<h3 class="sans">International College Students in NYC</h3>
 			</div>
 		</section>
@@ -41,7 +42,7 @@
 
 <!-- search box -->
 			<form class="c-home-searchbox row" role="search">
-				<span class="form-group col-lg-11 col-md-11 col-sm-11 col-xs-11">
+				<span class="form-group">
 					<input type="text" class="form-control" placeholder=":Search for Events | Topics | Tags">
 				</span>
 			  	<span class="col-lg-1 col-md-1 col-sm-1 col-xs-1" >
