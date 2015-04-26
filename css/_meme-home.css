@@ -95,7 +95,7 @@ body {
   height: 100%;
   position: relative;
   text-align: center;
-  padding: 10px 0;
+  padding: 10px 0 10px 5px;
   color: #ffffff;
 }
 .c-home-searchbox input[type="text"]:focus,
@@ -454,7 +454,7 @@ body {
     width: 82%;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   body {
     font-size: 6px;
   }
