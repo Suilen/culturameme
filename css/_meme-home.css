@@ -17,6 +17,7 @@ body {
 }
 .c-home-banner {
   position: relative;
+  margin-top: 50px;
 }
 .c-home-banner .c-banner-heading {
   position: absolute;
