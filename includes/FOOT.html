@@ -21,7 +21,7 @@ $('#signup').click(function(){
 
 
 // JQuery smooth scrolling when clicking an anchor link
-$('a').click(function(){
+$('header a').click(function(){
     $('html, body').animate({
         scrollTop: $( $.attr(this, 'href') ).offset().top
     }, 500);
