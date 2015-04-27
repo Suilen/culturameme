@@ -468,7 +468,7 @@ body {
     padding: 25.6px 16px;
   }
   .c-home-search .c-home-searchbox .c-search {
-    padding: 14px 0 14px 5px;
+    padding: 14px 5px;
   }
 }
 @media (max-width: 480px) {
