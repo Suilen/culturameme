@@ -45,7 +45,7 @@
 				<span class="form-group">
 					<input type="text" class="form-control" placeholder=":Search for Events | Topics | Tags">
 				</span>
-			  	<span class="col-lg-1 col-md-1 col-sm-1 col-xs-1" >
+			  	<span class="submit_wrp" >
 			 		<button type="submit" class="c-btn c-search"><i class="fa fa-search"></i></button>
 				</span>
 			</form>
