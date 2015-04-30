@@ -25,7 +25,7 @@ function expandBlock(id){
 	$(".c-home-topics-i:not("+el+")").fadeOut(600);
 	
 	$(el).delay(100).fadeTo(300,0.1, function(){
-		
+		debugger;
 		$('html, body').animate({
        	 scrollTop: originTOP - 70
    		 }, 300);
